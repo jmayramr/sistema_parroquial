@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Parroquial</title>
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+
+    <div class="pantalla-login">
+
+        <div class="imagen-san-francisco">
+            <picture>
+                <source
+                    media="(max-width: 768px)"
+                    srcset="/img/san_francisco_celular.png">
+
+                <img
+                    src="/img/san_francisco.png"
+                    alt="San Francisco de Asís">
+            </picture>
+        </div>
+
+        <div class="formulario-login">
+
+            <div class="adorno-tau">
+                <img
+                    src="/img/tau_franciscana.png"
+                    alt="Tau franciscana">
+            </div>
+
+            <h1 class="titulo-vicariato">
+                Vicariato Apostólico<br>
+                de Camiri
+            </h1>
+
+            <form id="formularioLogin">
+
+                <div class="campo-login">
+                    <label for="usuario">Nombre de usuario</label>
+                    <input
+                        type="text"
+                        id="usuario"
+                        name="nombre_usuario"
+                        placeholder="Escriba su usuario"
+                        autocomplete="username"
+                        required>
+                </div>
+
+                <div class="campo-login">
+                    <label for="contrasena">Contraseña</label>
+                    <input
+                        type="password"
+                        id="contrasena"
+                        name="contrasena"
+                        placeholder="Escriba su contraseña"
+                        autocomplete="current-password"
+                        required>
+                </div>
+
+                <button type="button" class="boton-login">
+                    Iniciar sesión
+                </button>
+
+            </form>
+
+            <div class="paz-y-bien">
+                Paz y Bien
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

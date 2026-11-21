@@ -1,0 +1,13 @@
+# Dependencias de Node.js
+node_modules/
+
+# Variables y secretos
+.env
+.env.*
+
+# Permitir plantilla de configuración
+!.env.example
+
+# Archivos temporales de Windows
+Thumbs.db
+.DS_Store
